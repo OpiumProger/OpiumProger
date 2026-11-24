@@ -1,42 +1,28 @@
-<div align="center">
+<h1 align="center">Vladimir Svistak</h1>
+<p align="center"><strong>Machine learning for chemistry and bioinformatics</strong><br>ITMO University · Chemical Engineering Center · Fourth year, class of 2027</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=165&color=0:101827,100:253956&text=Vladimir%20Svistak&fontSize=44&fontColor=F2F6FF&desc=Machine%20Learning%20for%20Chemistry%20%26%20Bioinformatics&descSize=16&descAlignY=72" width="100%" alt="Vladimir Svistak — Machine Learning for Chemistry and Bioinformatics" />
+I build tools for two kinds of data: sequencing reads and protein sequences. In GenomFlow, that means automating NGS workflows. At Biokhakaton, it meant studying amino acid substitutions in amyloid proteins.
 
-**ITMO University · Chemical Engineering Center · Fourth-year student, class of 2027**
-
-[![GitHub](https://img.shields.io/badge/GitHub-OpiumProger-253956?style=for-the-badge&logo=github)](https://github.com/OpiumProger)
-[![AIDaR](https://img.shields.io/badge/AIDaR-Workshop%20Poster-554078?style=for-the-badge)](https://neurips.cc/virtual/2026/loc/paris/162339)
-
-</div>
-
-## Research
-
-I use machine learning to study molecular and protein data and build workflows for bioinformatics analysis.
-
-> **Workshop poster · AIDaR at NeurIPS 2026, Paris**  
+> [!NOTE]
+> **AIDaR workshop poster · NeurIPS 2026, Paris**  
 > AI Data Readiness for Scientific Discovery  
-> [Poster listing](https://neurips.cc/virtual/2026/loc/paris/162339) · [Workshop website](https://aidar-workshop.github.io/2026/)
+> [Poster listing ↗](https://neurips.cc/virtual/2026/loc/paris/162339) · [Workshop ↗](https://aidar-workshop.github.io/2026/)
 
-## Selected projects
+## From sequencing reads to annotated variants
 
-| Project | Focus | Methods and tools |
-| --- | --- | --- |
-| **GenomFlow** | Automated NGS analysis and variant annotation with ClinVar and gnomAD. | Python · Nextflow · Docker · LangGraph |
-| **[BHT Amyloid](https://github.com/Seregacod/BHT_amyloid)** | **Contributor**, Biokhakaton 2025. Team project studying amino acid substitutions in amyloid proteins. | Protein sequence analysis · Structural biology |
-| **DataCon 2025** | Modeled ligand activity at the adenosine A2A receptor. | Cheminformatics · Morgan fingerprints |
+**GenomFlow** automates NGS analysis and uses ClinVar and gnomAD to annotate genetic variants. I work with Nextflow and Docker for the analysis pipeline, and Python and LangGraph for tool orchestration.
 
-## Technical stack
+## How sequence changes affect amyloid proteins
 
-![Python](https://img.shields.io/badge/Python-253956?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-253956?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-253956?style=flat-square&logo=scikitlearn&logoColor=white)
-![RDKit](https://img.shields.io/badge/RDKit-554078?style=flat-square)
-![Nextflow](https://img.shields.io/badge/Nextflow-265B60?style=flat-square&logo=nextflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-265B60?style=flat-square&logo=docker&logoColor=white)
+I contributed to **[BHT Amyloid ↗](https://github.com/Seregacod/BHT_amyloid)** at Biokhakaton 2025. Our team studied amino acid substitutions in amyloid proteins using sequence analysis and structural biology.
 
-| Area | Tools |
-| --- | --- |
-| **Data and ML** | SQL, pandas, NumPy, LightGBM, MLflow |
-| **Bioinformatics** | Biopython, FastQC, SAMtools |
-| **LLM applications** | LangChain, LangGraph, OpenAI Agents SDK |
-| **Development** | Linux, Git |
+<details>
+<summary><strong>Tools I work with</strong></summary>
+
+- **Programming and data analysis** · Python, SQL, pandas, NumPy
+- **Machine learning** · PyTorch, scikit-learn, LightGBM, MLflow
+- **Molecular and sequencing data** · RDKit, Biopython, FastQC, SAMtools
+- **Workflows and tooling** · Nextflow, Docker, Linux, Git
+- **LLM applications** · LangChain, LangGraph, OpenAI Agents SDK
+
+</details>
