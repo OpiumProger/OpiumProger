@@ -1,29 +1,42 @@
-# Vladimir Svistak
+<div align="center">
 
-**ITMO University · Chemical Engineering Center · Fourth-year student**
+<img src="https://capsule-render.vercel.app/api?type=rect&height=165&color=0:101827,100:253956&text=Vladimir%20Svistak&fontSize=44&fontColor=F2F6FF&desc=Machine%20Learning%20for%20Chemistry%20%26%20Bioinformatics&descSize=16&descAlignY=72" width="100%" alt="Vladimir Svistak — Machine Learning for Chemistry and Bioinformatics" />
 
-I apply machine learning to problems in chemistry and bioinformatics.
-I use Python to analyze molecular data and automate research workflows.
+**ITMO University · Chemical Engineering Center · Fourth-year student, class of 2027**
 
-## Selected Projects
+[![GitHub](https://img.shields.io/badge/GitHub-OpiumProger-253956?style=for-the-badge&logo=github)](https://github.com/OpiumProger)
+[![AIDaR](https://img.shields.io/badge/AIDaR-Workshop%20Poster-554078?style=for-the-badge)](https://neurips.cc/virtual/2026/loc/paris/162339)
 
-| Project | What I worked on |
-| --- | --- |
-| **GenomFlow** | Automated NGS data analysis and variant annotation using ClinVar and gnomAD. Built with Python, Nextflow, Docker, and LangGraph. |
-| **DataCon 2025** | Modeled ligand activity at the adenosine A2A receptor using Morgan fingerprints. |
-| **Hard Hat and Safety Vest Detection** | Used YOLO to detect protective equipment on construction sites and developed an image processing pipeline. |
+</div>
 
-## Technical Skills
+## Research
+
+I use machine learning to study molecular and protein data and build workflows for bioinformatics analysis.
+
+> **Workshop poster · AIDaR at NeurIPS 2026, Paris**  
+> AI Data Readiness for Scientific Discovery  
+> [Poster listing](https://neurips.cc/virtual/2026/loc/paris/162339) · [Workshop website](https://aidar-workshop.github.io/2026/)
+
+## Selected projects
+
+| Project | Focus | Methods and tools |
+| --- | --- | --- |
+| **GenomFlow** | Automated NGS analysis and variant annotation with ClinVar and gnomAD. | Python · Nextflow · Docker · LangGraph |
+| **[BHT Amyloid](https://github.com/Seregacod/BHT_amyloid)** | **Contributor**, Biokhakaton 2025. Team project studying amino acid substitutions in amyloid proteins. | Protein sequence analysis · Structural biology |
+| **DataCon 2025** | Modeled ligand activity at the adenosine A2A receptor. | Cheminformatics · Morgan fingerprints |
+
+## Technical stack
+
+![Python](https://img.shields.io/badge/Python-253956?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-253956?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-253956?style=flat-square&logo=scikitlearn&logoColor=white)
+![RDKit](https://img.shields.io/badge/RDKit-554078?style=flat-square)
+![Nextflow](https://img.shields.io/badge/Nextflow-265B60?style=flat-square&logo=nextflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-265B60?style=flat-square&logo=docker&logoColor=white)
 
 | Area | Tools |
 | --- | --- |
-| **Programming & Data Analysis** | Python, SQL, pandas, NumPy |
-| **Machine Learning** | PyTorch, scikit-learn, LightGBM |
-| **Cheminformatics & Bioinformatics** | RDKit, Biopython, FastQC, SAMtools |
-| **Computer Vision** | OpenCV, YOLO |
-| **LLM Applications** | LangChain, LangGraph, OpenAI Agents SDK |
-| **Development & Workflows** | Linux, Git, Docker, Nextflow, MLflow |
-
-## Research Poster
-
-**NeurIPS 2026, Paris** · [View poster on the conference website](https://neurips.cc/virtual/2026/loc/paris/162339)
+| **Data and ML** | SQL, pandas, NumPy, LightGBM, MLflow |
+| **Bioinformatics** | Biopython, FastQC, SAMtools |
+| **LLM applications** | LangChain, LangGraph, OpenAI Agents SDK |
+| **Development** | Linux, Git |
